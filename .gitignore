@@ -1,0 +1,18 @@
+# 开发预览页，不随站点发布
+logo-preview.html
+
+# 留言数据（服务器上运行时生成，含访客隐私，不入库）
+data/messages.json.php
+data/login_failures.json.php
+
+# 系统杂项
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志与临时文件
+*.log
+*.tmp
+
+# 部署产物（tools/deploy-build.mjs 生成，不入库）
+dist/

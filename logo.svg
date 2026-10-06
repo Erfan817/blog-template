@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <style>
+    /* 深色环境下字母反白，浏览器标签页/深色导航里不至于隐形 */
+    @media (prefers-color-scheme: dark) {
+      text { fill: #EDEDF0; }
+    }
+  </style>
+  <text x="30" y="86" font-family="JetBrains Mono, ui-monospace, monospace" font-size="72" font-weight="700" fill="#111114">M</text>
+  <circle cx="90" cy="76" r="10" fill="#C96548"/>
+</svg>
